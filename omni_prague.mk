@@ -33,7 +33,12 @@ $(call inherit-product, vendor/omni/config/common.mk)
 PRODUCT_NAME := omni_prague
 PRODUCT_DEVICE := prague
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := Huawei P8 Lite 2017
+PRODUCT_MODEL := prague
+
+ADDITIONAL_DEFAULT_PROPERTIES += \
+    ro.adb.secure=0 \
+    ro.secure=0 \
+    ro.zygote=zygote64_32 \
 
 # Charger
 PRODUCT_PACKAGES += \

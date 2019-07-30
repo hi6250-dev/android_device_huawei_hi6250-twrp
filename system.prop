@@ -1,10 +1,14 @@
 # ADB
-ro.adb.secure=1
-ro.debuggable=0
-ro.secure=1
+persist.sys.sdcardfs.emulated=1
+persist.sys.sdcardfs.public=1
+persist.sys.usb.config=hisuite,mtp,mass_storage,adb
+ro.sys.sdcardfs=1
+sys.usb.configfs=1
+sys.usb.controller=ff100000.dwc3
 
 # MTP
-persist.sys.usb.config=mtp,adb
+sys.usb.config=hisuite,mtp,mass_storage,adb
+sys.usb.state=hisuite,mtp,mass_storage,adb
 
 # Selinux
 ro.build.selinux=1
