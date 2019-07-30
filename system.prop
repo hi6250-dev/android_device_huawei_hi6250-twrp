@@ -1,0 +1,13 @@
+# ADB
+ro.adb.secure=1
+ro.debuggable=0
+ro.secure=1
+
+# MTP
+persist.sys.usb.config=mtp,adb
+
+# Selinux
+ro.build.selinux=1
+
+# Treble
+ro.treble.enabled=true
