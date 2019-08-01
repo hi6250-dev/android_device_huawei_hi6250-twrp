@@ -30,10 +30,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # OmniROM
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_NAME := omni_prague
-PRODUCT_DEVICE := prague
+PRODUCT_NAME := omni_warsaw
+PRODUCT_DEVICE := warsaw
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := prague
+PRODUCT_MODEL := warsaw
 
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.adb.secure=0 \
@@ -47,6 +47,6 @@ PRODUCT_PACKAGES += \
 
 # Kernel
 PRODUCT_COPY_FILES += \
-    device/huawei/prague/dummykernel:kernel
+    device/huawei/warsaw/dummykernel:kernel
 
 

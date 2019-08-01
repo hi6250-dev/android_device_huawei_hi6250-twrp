@@ -1,4 +1,4 @@
-# ADB
+# USB
 persist.sys.sdcardfs.emulated=1
 persist.sys.sdcardfs.public=1
 persist.sys.usb.config=hisuite,mtp,mass_storage,adb

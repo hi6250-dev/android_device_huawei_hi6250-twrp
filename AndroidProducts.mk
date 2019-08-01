@@ -24,4 +24,4 @@
 # components.
 
 PRODUCT_MAKEFILES := \
-    omni_prague:$(LOCAL_DIR)/omni_prague.mk
+    omni_warsaw:$(LOCAL_DIR)/omni_warsaw.mk
