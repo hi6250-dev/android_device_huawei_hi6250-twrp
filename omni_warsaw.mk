@@ -29,6 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # OmniROM
 $(call inherit-product, vendor/omni/config/common.mk)
+ALLOW_MISSING_DEPENDENCIES := true
 
 PRODUCT_NAME := omni_warsaw
 PRODUCT_DEVICE := warsaw
