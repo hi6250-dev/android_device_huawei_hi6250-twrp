@@ -35,11 +35,6 @@ PRODUCT_DEVICE := warsaw
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := warsaw
 
-ADDITIONAL_DEFAULT_PROPERTIES += \
-    ro.adb.secure=0 \
-    ro.secure=0 \
-    ro.zygote=zygote64_32 \
-
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images \
