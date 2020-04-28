@@ -23,4 +23,4 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-add_lunch_combo omni_warsaw-userdebug
+add_lunch_combo omni_hi6250-userdebug

@@ -31,10 +31,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 ALLOW_MISSING_DEPENDENCIES := true
 
-PRODUCT_NAME := omni_warsaw
-PRODUCT_DEVICE := warsaw
+PRODUCT_NAME := omni_hi6250
+PRODUCT_DEVICE := hi6250
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := warsaw
+PRODUCT_MODEL := hi6250
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -43,6 +43,6 @@ PRODUCT_PACKAGES += \
 
 # Kernel
 PRODUCT_COPY_FILES += \
-    device/huawei/warsaw/dummykernel:kernel
+    device/huawei/hi6250/dummykernel:kernel
 
 

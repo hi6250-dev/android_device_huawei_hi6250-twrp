@@ -1,1 +1,0 @@
-## TWRP device tree

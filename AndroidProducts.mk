@@ -24,4 +24,4 @@
 # components.
 
 PRODUCT_MAKEFILES := \
-    omni_warsaw:$(LOCAL_DIR)/omni_warsaw.mk
+    omni_hi6250:$(LOCAL_DIR)/omni_hi6250.mk
